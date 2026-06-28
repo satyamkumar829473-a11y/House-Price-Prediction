@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+
+    <h1>House Price Prediction</h1>
+
+    <form action="/predict" method="POST">
+
+        <label>Area (sq.ft)</label>
+        <input type="number" name="area" required placeholder="area of house">
+
+        <label>Bedrooms</label>
+        <input type="number" name="bedrooms" required placeholder="no of bedrooms">
+        
+        
+        <p>NOTE:It includes interior pricing, hall and kitchen. </p>
+
+        <button type="submit">
+            Predict Price
+        </button>
+
+    </form>
+
+    <h2>{{ prediction_text }}</h2>
+    
+
+</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url(River\ House\ by\ Jon\ R_\ Sayler\ _\ HomeAdore.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width:400px;
+    background:rgba(255, 255, 255, 0.466);
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+h1{
+    margin-bottom:20px;
+    color:#333;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    display:block;
+    text-align:left;
+    margin-top:15px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    border:none;
+    border-radius:8px;
+    background:#0a0a0a;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2196f3;
+}
+
+h2{
+    margin-top:20px;
+    color:rgb(7, 7, 7);
+}
+p{
+    margin-top: 15px;
+}
