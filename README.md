@@ -8,6 +8,12 @@ A Machine Learning-based web application that predicts house prices based on use
 - Real-time input and output.
 - Responsive design using HTML and CSS.
 
+##Internship Project Details
+- **Intern ID:** CITS1377
+- **Name:** Satyam Kumar
+- **Project Name:** House Price Prediction 
+- **Project Duration:** 6 Weeks
+
 ## 🛠️ Technologies Used
 - Python
 - Flask
